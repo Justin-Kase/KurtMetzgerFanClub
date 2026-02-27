@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2025-10-25",
+    "venue": "Comedy Cellar",
+    "city": "New York, NY",
+    "status": "sold-out",
+    "ticketUrl": "https://comedycellar.com/",
+    "price": "SOLD OUT",
+    "showTime": "8:00 PM & 10:30 PM"
+  },
+  {
+    "date": "2025-10-27",
+    "venue": "The Stand",
+    "city": "New York, NY",
+    "status": "available",
+    "ticketUrl": "https://thestandnyc.com/",
+    "price": "$30-40",
+    "showTime": "7:00 PM & 9:30 PM"
+  },
+  {
+    "date": "2025-10-28",
+    "venue": "The Laugh Factory",
+    "city": "Los Angeles, CA",
+    "status": "available",
+    "ticketUrl": "https://laughfactory.com/",
+    "price": "$25-35",
+    "showTime": "8:00 PM"
+  },
+  {
+    "date": "2025-11-05",
+    "venue": "Zanies Comedy Club",
+    "city": "Chicago, IL",
+    "status": "available",
+    "ticketUrl": "https://chicago.zanies.com/",
+    "price": "$25-30",
+    "showTime": "7:30 PM & 9:45 PM"
+  },
+  {
+    "date": "2025-11-12",
+    "venue": "Punchline Comedy Club",
+    "city": "San Francisco, CA",
+    "status": "available",
+    "ticketUrl": "https://punchlinecomedyclub.com/",
+    "price": "$30-40",
+    "showTime": "8:00 PM"
+  },
+  {
+    "date": "2025-11-18",
+    "venue": "Improv Comedy Club",
+    "city": "Austin, TX",
+    "status": "presale",
+    "ticketUrl": "https://improv.com/",
+    "price": "$20-25",
+    "showTime": "7:00 PM & 9:30 PM"
+  },
+  {
+    "date": "2025-11-25",
+    "venue": "Helium Comedy Club",
+    "city": "Philadelphia, PA",
+    "status": "available",
+    "ticketUrl": "https://heliumcomedy.com/",
+    "price": "$28-35",
+    "showTime": "8:00 PM & 10:15 PM"
+  },
+  {
+    "date": "2025-12-01",
+    "venue": "The Improv",
+    "city": "Hollywood, CA",
+    "status": "presale",
+    "ticketUrl": "https://improv.com/",
+    "price": "$32-42",
+    "showTime": "8:00 PM & 10:30 PM"
+  },
+  {
+    "date": "2025-12-08",
+    "venue": "Funny or Die Clubhouse",
+    "city": "Los Angeles, CA",
+    "status": "available",
+    "ticketUrl": "https://funnyordie.com/",
+    "price": "$25-35",
+    "showTime": "9:00 PM"
+  },
+  {
+    "date": "2025-12-15",
+    "venue": "Madison Square Garden",
+    "city": "New York, NY",
+    "status": "available",
+    "ticketUrl": "https://msg.com/",
+    "price": "$45-95",
+    "showTime": "8:00 PM"
+  }
+]

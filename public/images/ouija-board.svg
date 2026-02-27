@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 200 150">
+  <defs>
+    <filter id="ouijaGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Ouija Board Background -->
+  <rect x="10" y="10" width="180" height="130" rx="10" 
+        fill="#1a1a1a" 
+        stroke="#6f42c1" 
+        stroke-width="2" 
+        filter="url(#ouijaGlow)"/>
+  
+  <!-- Alphabet Arc -->
+  <g font-family="serif" font-size="12" fill="#dc3545" text-anchor="middle">
+    <!-- Top row -->
+    <text x="30" y="35">A</text>
+    <text x="45" y="32">B</text>
+    <text x="60" y="30">C</text>
+    <text x="75" y="29">D</text>
+    <text x="90" y="28">E</text>
+    <text x="105" y="29">F</text>
+    <text x="120" y="30">G</text>
+    <text x="135" y="32">H</text>
+    <text x="150" y="35">I</text>
+    
+    <!-- Second row -->
+    <text x="35" y="55">J</text>
+    <text x="50" y="52">K</text>
+    <text x="65" y="50">L</text>
+    <text x="80" y="49">M</text>
+    <text x="100" y="48">N</text>
+    <text x="120" y="49">O</text>
+    <text x="135" y="50">P</text>
+    <text x="150" y="52">Q</text>
+    <text x="165" y="55">R</text>
+    
+    <!-- Third row -->
+    <text x="45" y="75">S</text>
+    <text x="60" y="72">T</text>
+    <text x="75" y="70">U</text>
+    <text x="90" y="69">V</text>
+    <text x="105" y="69">W</text>
+    <text x="120" y="70">X</text>
+    <text x="135" y="72">Y</text>
+    <text x="150" y="75">Z</text>
+  </g>
+  
+  <!-- Numbers -->
+  <g font-family="serif" font-size="10" fill="#6f42c1" text-anchor="middle">
+    <text x="30" y="95">1</text>
+    <text x="45" y="95">2</text>
+    <text x="60" y="95">3</text>
+    <text x="75" y="95">4</text>
+    <text x="90" y="95">5</text>
+    <text x="110" y="95">6</text>
+    <text x="125" y="95">7</text>
+    <text x="140" y="95">8</text>
+    <text x="155" y="95">9</text>
+    <text x="170" y="95">0</text>
+  </g>
+  
+  <!-- YES and NO -->
+  <text x="40" y="115" font-family="serif" font-size="14" fill="#dc3545" text-anchor="middle">YES</text>
+  <text x="160" y="115" font-family="serif" font-size="14" fill="#dc3545" text-anchor="middle">NO</text>
+  
+  <!-- GOODBYE -->
+  <text x="100" y="130" font-family="serif" font-size="12" fill="#6f42c1" text-anchor="middle">GOODBYE</text>
+  
+  <!-- Planchette -->
+  <g transform="translate(100,60)">
+    <circle cx="0" cy="0" r="12" fill="#2a2a2a" stroke="#dc3545" stroke-width="2" opacity="0.8"/>
+    <circle cx="0" cy="0" r="3" fill="#dc3545"/>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <filter id="baphometGlow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff4444;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#cc0000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <g transform="translate(100,100)">
+    <!-- Outer Circle -->
+    <circle cx="0" cy="0" r="90" 
+            fill="none" 
+            stroke="url(#redGrad)" 
+            stroke-width="4" 
+            filter="url(#baphometGlow)"/>
+    
+    <!-- Inner Circle -->
+    <circle cx="0" cy="0" r="75" 
+            fill="none" 
+            stroke="url(#redGrad)" 
+            stroke-width="2" 
+            filter="url(#baphometGlow)"/>
+    
+    <!-- Main Pentagram -->
+    <path d="M0,-70 L20.6,-21.7 L66.9,-21.7 L27.1,7 L43.4,56.3 L0,28 L-43.4,56.3 L-27.1,7 L-66.9,-21.7 L-20.6,-21.7 Z" 
+          fill="none" 
+          stroke="url(#redGrad)" 
+          stroke-width="3" 
+          filter="url(#baphometGlow)"/>
+    
+    <!-- Baphomet Head Outline -->
+    <g stroke="url(#redGrad)" stroke-width="2" fill="none" filter="url(#baphometGlow)">
+      <!-- Goat head outline -->
+      <path d="M-15,-10 Q-15,-25 0,-30 Q15,-25 15,-10 Q15,5 10,15 Q5,25 0,28 Q-5,25 -10,15 Q-15,5 -15,-10"/>
+      
+      <!-- Horns -->
+      <path d="M-12,-25 Q-18,-35 -25,-45"/>
+      <path d="M12,-25 Q18,-35 25,-45"/>
+      
+      <!-- Eyes -->
+      <circle cx="-6" cy="-15" r="2" fill="url(#redGrad)"/>
+      <circle cx="6" cy="-15" r="2" fill="url(#redGrad)"/>
+      
+      <!-- Goatee -->
+      <path d="M0,15 Q0,20 0,25"/>
+      
+      <!-- Ears -->
+      <path d="M-15,-5 Q-20,-8 -18,-12"/>
+      <path d="M15,-5 Q20,-8 18,-12"/>
+    </g>
+    
+    <!-- Inverted pentagram lines -->
+    <g stroke="url(#redGrad)" stroke-width="2" fill="none" opacity="0.8">
+      <line x1="0" y1="-70" x2="0" y2="28"/>
+      <line x1="66.9" y1="-21.7" x2="-27.1" y2="7"/>
+      <line x1="43.4" y1="56.3" x2="-43.4" y2="56.3"/>
+      <line x1="-66.9" y1="-21.7" x2="27.1" y2="7"/>
+      <line x1="-20.6" y1="-21.7" x2="20.6" y2="-21.7"/>
+    </g>
+  </g>
+</svg>

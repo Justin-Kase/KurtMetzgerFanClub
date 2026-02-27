@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="socialGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a2a2a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#socialGrad)"/>
+  
+  <!-- Fire decoration -->
+  <text x="100" y="100" font-size="60" fill="#dc3545" opacity="0.3">🔥</text>
+  <text x="1050" y="150" font-size="40" fill="#dc3545" opacity="0.2">🔥</text>
+  <text x="150" y="550" font-size="50" fill="#dc3545" opacity="0.25">🔥</text>
+  
+  <!-- Main content -->
+  <circle cx="300" cy="315" r="100" fill="#dc3545" opacity="0.8"/>
+  <text x="300" y="325" font-family="Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="white">KM</text>
+  
+  <text x="600" y="250" font-family="Arial, sans-serif" font-size="64" font-weight="bold" text-anchor="middle" fill="white">KURT METZGER</text>
+  <text x="600" y="290" font-family="Arial, sans-serif" font-size="32" text-anchor="middle" fill="#dc3545">FANCLUB</text>
+  <text x="600" y="340" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="white">Dark Comedy's Brightest Flame</text>
+  <text x="600" y="380" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#cccccc">Unofficial Fan Site</text>
+  
+  <text x="600" y="500" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#666">[Social Media Share Image - 1200x630]</text>
+  
+  <!-- Occult symbols -->
+  <polygon points="900,100 910,130 940,130 918,148 928,178 900,160 872,178 882,148 860,130 890,130" fill="#6f42c1" opacity="0.4"/>
+  <polygon points="950,450 960,480 990,480 968,498 978,528 950,510 922,528 932,498 910,480 940,480" fill="#6f42c1" opacity="0.3"/>
+</svg>

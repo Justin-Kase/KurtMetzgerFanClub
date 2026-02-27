@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#1a1a1a"/>
+  <rect x="50" y="50" width="300" height="200" rx="10" fill="#0a0a0a" stroke="#dc3545" stroke-width="2"/>
+  
+  <!-- YouTube play button -->
+  <circle cx="200" cy="150" r="30" fill="#dc3545"/>
+  <polygon points="190,135 190,165 220,150" fill="white"/>
+  
+  <text x="200" y="50" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">VIDEO THUMBNAIL</text>
+  <text x="200" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#dc3545">Kurt Metzger Comedy</text>
+  <text x="200" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#888">400x300 placeholder</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  
+  <!-- Twitter-style design -->
+  <circle cx="200" cy="200" r="80" fill="#dc3545"/>
+  <text x="200" y="210" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="white">🎤</text>
+  
+  <text x="600" y="180" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">KURT METZGER FANCLUB</text>
+  <text x="600" y="230" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#dc3545">@kurtmetzger fan community</text>
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#cccccc">Dark Comedy's Brightest Flame</text>
+  
+  <rect x="300" y="350" width="600" height="120" rx="15" fill="#1a1a1a" stroke="#dc3545" stroke-width="2"/>
+  <text x="600" y="380" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="white">Join the unholy alliance of comedy fans</text>
+  <text x="600" y="410" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#cccccc">Exclusive roasts • Tour updates • Savage content</text>
+  <text x="600" y="440" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#888">Unofficial fanclub • Not affiliated with Kurt Metzger</text>
+  
+  <text x="600" y="550" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">[Twitter Card Image - 1200x630]</text>
+</svg>
